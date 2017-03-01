@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DrawerN</string>
+    <string-array name="items_name">
+        <item>cheese</item>
+        <item>corn</item>
+        <item>paneer</item>
+        <item>onion</item>
+    </string-array>
+</resources>

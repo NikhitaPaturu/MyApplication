@@ -1,0 +1,8 @@
+<resources>
+    <String-array name="items_name">
+        <item>cheese</item>
+        <item>corn</item>
+        <item>paneer</item>
+        <item>onion</item>
+    </String-array>
+</resources>

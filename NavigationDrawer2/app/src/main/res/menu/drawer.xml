@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/inb"
+            android:checked="false"
+            android:icon="@drawable/cell_phone-48"/>
+
+        <item
+            android:id="@+id/starred"
+            android:checked="false"
+            android:icon="@drawable/cellular_network-48"/>
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@drawable/charge_battery-48"/>
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@drawable/empty_battery-48"/>
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@drawable/end_call-48"/>
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@drawable/full_battery-48"/>
+        <item
+            android:id="@+id/spam"
+            android:checked="false"
+            android:icon="@drawable/headset-48"/>
+
+    </group>
+</menu>

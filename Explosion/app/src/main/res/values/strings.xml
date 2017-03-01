@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Explosion</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_reset">Reset</string>
+</resources>

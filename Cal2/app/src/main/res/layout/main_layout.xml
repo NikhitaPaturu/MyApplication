@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#04aec4">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no1"
+        android:hint="Enter no.1"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign"
+        android:hint="Enter Operator(+ ,- ,* ,/)"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/no2"
+        android:layout_marginTop="15dp"
+        android:hint="Enter no.2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:background="#e2c478"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:id="@+id/res"
+        android:layout_marginTop="35dp"
+        android:text="RESULT:"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:id="@+id/ress"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+</LinearLayout>

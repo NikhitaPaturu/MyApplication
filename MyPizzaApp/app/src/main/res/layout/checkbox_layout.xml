@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d6f16a"
+    android:id="@+id/l1">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:  FRESH VEGGIE
+ Price:  125/-"
+        android:onClick="display"
+        android:textSize="20sp"
+        android:layout_margin="25dp"
+        android:id="@+id/cb1"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:  MARGHERITA
+ Price:  160/-"
+        android:onClick="display"
+        android:textSize="20sp"
+        android:layout_margin="25dp"
+        android:id="@+id/cb2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:  SPECIAL SPICY PANEER
+ Price:  215/-"
+        android:onClick="display"
+        android:textSize="20sp"
+        android:layout_margin="25dp"
+        android:id="@+id/cb3"/>
+
+
+
+
+</LinearLayout>

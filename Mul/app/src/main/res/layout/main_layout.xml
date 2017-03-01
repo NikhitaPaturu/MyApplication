@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#9dc403">
+
+    <EditText
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter table no."
+        android:id="@+id/tableno"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:id="@+id/b1"
+        android:layout_gravity="right"
+        android:background="#ea9a19"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"/>
+
+</LinearLayout>

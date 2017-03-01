@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#fd02c3">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Employee"
+        android:layout_margin="20dp"
+        android:onClick="openNewEmployee"
+        android:background="#d2f533"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Employees"
+        android:layout_margin="20dp"
+        android:onClick="openViewEmployee"
+        android:background="#e4f767"/>
+
+
+</LinearLayout>
